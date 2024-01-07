@@ -10,7 +10,7 @@ body {
 
 /* header related styles */
 
-section {
+.hdr {
     background: url(../images/banner/banner3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,6 +23,8 @@ section {
     text-align: right;
     font-size: 65px;
     font-weight: 700;
+    padding-left: 845px;
+    margin-bottom: 25px;
 }
 
 .hdr-cont {
@@ -30,10 +32,12 @@ section {
     text-align: right;
     font-size: 16px;
     font-weight: 400;
+    padding-left: 1200px;
 }
 
 .btn {
     text-align: right;
+    margin-top: 30px;
 }
 
 .btn-one {
@@ -44,4 +48,48 @@ section {
     font-size: 20px;
     font-weight: 600;
     padding: 21px 25px;
+}
+
+.hdr-contnr {
+    padding: 215px 230px 165px 0px;
+}
+
+/* main related styles */
+
+.main {
+    margin-top: 130px;
+
+}
+
+.main-contnr {
+    display: flex;
+    padding: 0px 325px 0px 228px;
+}
+
+.main-cont-contnr {
+    margin: 230px 0px 0px 135px;
+}
+
+.main-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.main-cont {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.main-ul {
+    margin-left: 20px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-ul-li{
+    margin-bottom: 10px;
 }
