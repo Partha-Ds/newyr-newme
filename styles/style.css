@@ -108,27 +108,60 @@ body {
     margin: 215px auto 50px auto;
 }
 
-.f-plan-contnr{
+.f-plan-contnr {
     display: flex;
     justify-content: space-around;
 }
 
-/* .skill{
-    text-align: center;
-} */
-
-.skill-title{
+.skill-title {
     color: #151414;
-text-align: center;
-font-size: 30px;
-font-weight: 700;
-margin: 25px auto 15px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px auto 15px auto;
 }
 
-.skill-des{
+.skill-des {
     color: #737272;
-text-align: center;
-font-size: 25px;
-font-weight: 500;
-margin-bottom: 135px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 135px;
 }
+
+.bnr {
+    background: url('../images/gradient1.png'), url('../images/watch.png');
+    border-radius: 5px;
+    margin: 0px 230px 230px 230px;
+    background-position: center, center;
+    background-size: cover;
+    width: 75%;
+    height: 330px;
+}
+
+.bnr-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding: 60px 620px 24px 65px;
+}
+
+.bnr-btn {
+    color: #005FAC;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 915px 60px 65px;
+}
+.btn-two{
+    color: #005FAC;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 35px;
+}
+
+/* footer style */
